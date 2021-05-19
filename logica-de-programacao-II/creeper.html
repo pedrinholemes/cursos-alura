@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Aula 05</title>
+</head>
+<body>
+  <canvas width="600" height="400"></canvas>
+  <script>
+    const tela = document.querySelector('canvas')
+    const pincel = tela.getContext("2d")
+
+    const xInicioDoDesenho = 45
+    const yInicioDoDesenho = 50
+
+    const cabecaAltura = 300
+    const cabecaLargura = 350
+
+    const olhosAltura = 90
+    const olhosLargura = 90
+
+    const narizAltura = 100
+    const narizLargura = 70
+
+    const bocaAltura = 110
+    const bocaLargura = 40
+
+    pincel.fillStyle = 'darkgreen'
+    pincel.fillRect(0, 0, cabecaLargura, cabecaAltura)
+
+    pincel.fillStyle = 'black'
+    pincel.fillRect(xInicioDoDesenho, yInicioDoDesenho, olhosLargura, olhosAltura)
+
+    pincel.fillStyle = 'black'
+    pincel.fillRect(xInicioDoDesenho+70+90, yInicioDoDesenho, olhosLargura, olhosAltura)
+
+    pincel.fillStyle = 'black'
+    pincel.fillRect(xInicioDoDesenho+90, yInicioDoDesenho+90, narizLargura, narizAltura)
+
+    pincel.fillStyle = 'black'
+    pincel.fillRect(xInicioDoDesenho+90-40, yInicioDoDesenho+90+50, bocaLargura, bocaAltura)
+
+    pincel.fillStyle = 'black'
+    pincel.fillRect(xInicioDoDesenho+70+90, yInicioDoDesenho+90+50, bocaLargura, bocaAltura)
+
+    
+
+  </script>
+</body>
+</html>

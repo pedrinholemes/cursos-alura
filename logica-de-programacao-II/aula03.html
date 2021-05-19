@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Aula 03</title>
+</head>
+<body>
+  <canvas width="600" height="400"></canvas>
+  <script>
+    const tela = document.querySelector('canvas')
+    const pincel = tela.getContext("2d")
+
+    pincel.fillStyle = 'lightgrey'
+    pincel.fillRect(0, 0, 600, 400)
+
+    pincel.fillStyle = 'green'
+    pincel.fillRect(0,0, 200, 400)
+
+    pincel.fillStyle = 'red'
+    pincel.fillRect(400,0, 200, 400)
+  </script>
+</body>
+</html>

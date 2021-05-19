@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>Aula 05</title>
+</head>
+<body>
+  <canvas width="600" height="400"></canvas>
+  <script>
+    const tela = document.querySelector('canvas')
+    const pincel = tela.getContext("2d")
+
+    pincel.fillStyle = 'black'
+    pincel.beginPath()
+
+    pincel.moveTo(50,50)
+    pincel.lineTo(400,400)
+    pincel.lineTo(50,400)
+
+    pincel.fill()
+
+
+
+    pincel.fillStyle = 'white'
+    pincel.beginPath()
+
+    pincel.moveTo(100,175)
+    pincel.lineTo(250, 350)
+    pincel.lineTo(100,350)
+    
+    pincel.fill()
+
+  </script>
+</body>
+</html>

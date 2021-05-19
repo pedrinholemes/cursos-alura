@@ -1,0 +1,13 @@
+{
+  "cSpell.enabled": true,
+  "cSpell.language": "en,en-US,pt-BR,pt,en-GB",
+  "cSpell.enableFiletypes": ["xml"],
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  }
+}
